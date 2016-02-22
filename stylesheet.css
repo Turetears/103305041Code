@@ -1,0 +1,95 @@
+body{
+	background-image:url(backimage-1.jpg);
+	background-repeat:no-repeat;
+	background-position:center -300px;
+	margin:0;
+}
+
+#frame{
+	width:80%;
+	margin-top:-20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#head{
+	height:100px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+#head h1{
+	padding:25px 40px;
+}
+
+#head h1 a{
+	color:#805300;
+	text-decoration:none;
+	text-shadow:2px 2px 2px yellow;
+}
+
+#head h1 a:hover{
+	color:yellow;
+	text-shadow:2px 2px 2px purple;
+	text-decoration:underline;
+}
+
+#search{
+	width:240px;
+	float:right;
+	margin-top:-100px;
+}
+
+.sidebar{
+	width:200px;
+	float:left;
+	margin:30px 0;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#main{
+	width:100%;
+	float:right;
+	margin:0;
+	margin-left:-200px
+}
+
+#main_inner{
+	clear:both;
+	margin-left:230px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#main_inner h3{
+	font-size:30px;
+	font-family:bold;
+	margin-bottom:30px;
+}
+
+#main_inner h6 a{
+	text-decoration:none;
+	font-size:16px;
+}
+
+.sidebar li{
+	list-style-type:none;
+}
+
+.sidebar li a{
+	text-decoration:none;
+	line-height:40px;
+	font-size:20px;
+	margin-left:-15px;
+	color:blue;
+}
+
+.sidebar li a:hover{
+	color:red;
+	text-decoration:underline;
+}
+
+h4{
+	color:black;
+	text-decoration:underline;
+	font-size:22px;
+	margin:0;
+}
